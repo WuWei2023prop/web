@@ -286,7 +286,7 @@ header .logo span {
  @media screen and (max-width: 1000px) {
     .text-left, .text-left1, .text-left2 {
       max-width: 60%; /* Reducir el ancho máximo para dispositivos medianos */
-      margin: 20px; /* Ajusta el margen */
+      margin: 20px; 
     }
   }
 /* Para pantallas de hasta 768px */
@@ -370,20 +370,20 @@ header .logo span {
 /* Para pantallas de hasta 1000px */
 @media screen and (max-width: 1000px) {
     .equipo {
-      padding: 50px; /* Reducir el padding para dispositivos medianos */
+      padding: 50px; 
     }
   }
   
   /* Para pantallas de hasta 768px */
   @media screen and (max-width: 768px) {
     .equipo {
-      padding: 60px; /* Reducir más el padding para dispositivos pequeños */
-      font-size: 16px; /* Reducir el tamaño del texto */
-      border-radius: 50% 60% 0 0 / 50% 70% 0 0; /* Ajustar el radio del borde */
+      padding: 60px; 
+      font-size: 16px; 
+      border-radius: 50% 60% 0 0 / 50% 70% 0 0; 
     }
   
     .miembro img {
-      width: 150px; /* Reducir el tamaño de la imagen */
+      width: 150px; 
       height: 170px;
     }
   }
@@ -391,19 +391,19 @@ header .logo span {
   /* Para pantallas de hasta 500px */
   @media screen and (max-width: 500px) {
     .equipo {
-      padding: 60px; /* Reducir el padding para dispositivos extra pequeños */
-      font-size: 14px; /* Reducir más el tamaño del texto */
-      border-radius: 40% 50% 0 0 / 40% 60% 0 0; /* Ajustar más el radio del borde */
+      padding: 60px; 
+      font-size: 14px; 
+      border-radius: 40% 50% 0 0 / 40% 60% 0 0; 
     }
   
     .miembro img {
-      width: 120px; /* Reducir más el tamaño de la imagen */
+      width: 120px; 
       height: 140px;
       margin-top: 80px;
     }
   
     .member-details a {
-      font-size: 16px; /* Reducir el tamaño de los enlaces */
+      font-size: 16px; 
     }
   }
   /* Estilo Footer */
@@ -446,37 +446,37 @@ footer {
   
   
   .condiciones ul li {
-    margin-bottom: 2px 2px; /* Ajusta el espacio entre elementos de la lista */
+    margin-bottom: 2px 2px; 
   }
   
   
   .condiciones ul li:nth-child(1) a {
-    font-size: 18px; /* Tamaño del primer enlace */
+    font-size: 18px;
     font-weight: bold;
   }
   
   
   .condiciones ul li:nth-child(2) a {
-    font-size: 10px; /* Tamaño del segundo enlace */
+    font-size: 10px; 
     font-weight: bold;
   }
   
   
   .condiciones ul li:nth-child(3) a {
-    font-size: 10px; /* Tamaño del tercer enlace */
+    font-size: 10px; 
     font-weight: bold;
   }
   
   
   .condiciones ul li a {
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    color: #369ac2; /* Color del texto de los enlaces */
+    text-decoration: none; 
+    color: #369ac2; 
   }
   /* Footer estilos para dispositivos más pequeños */
 @media screen and (max-width: 1000px) {
     footer {
       padding: 5px; 
-      font-size: 8px; /* el tamaño de fuente */
+      font-size: 8px; 
     }
   
   
@@ -489,7 +489,7 @@ footer {
   
   
     .redes-sociales img {
-      width: 30px; /* Reduci el tamaño de las imágenes */
+      width: 30px; 
       margin: 5px; /* Añadi un poco de espacio entre las imágenes */
     }
   
