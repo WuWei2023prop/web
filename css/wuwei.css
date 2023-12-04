@@ -188,7 +188,7 @@ header .logo span {
     display: flex;
     flex-direction:column;
     align-items: center;
-    margin-top: 8px; /* Reducir el espacio arriba del texto */
+    margin-top: 8px; 
     color: #347d9a;
   }
   .content h1{
@@ -420,8 +420,8 @@ button a:hover {
       color: #2b7a99;
       margin-top: 20px;
       margin-bottom: 100px;
-      text-align: center; /* Alinea el texto al centro */
-      padding-left: 20px; /* Mover el texto a la derecha */
+      text-align: center; 
+      padding-left: 20px; 
     }
   
     .wrapper {
@@ -549,10 +549,10 @@ button a:hover {
     }
 }
   .right-box {
-    background-color: #ffffff; /* Color de fondo del recuadro */
+    background-color: #ffffff; 
     border-radius: 100px; /* Bordes redondeados */
-    padding: 40px; /* Espaciado interno */
-    width: 80%; /* Ancho del recuadro */
+    padding: 40px; 
+    width: 80%; 
   }
  /* Como podemos ayudarte ajustes para dispositivos más pequeños */
 @media screen and (max-width: 768px) {
@@ -573,18 +573,18 @@ button a:hover {
     max-width: 100%; 
     margin-left: -120px;
     margin-right: 0; 
-    margin-bottom: 20px; /* espacio inferior */
+    margin-bottom: 20px; 
   }
 
   .text {
     width: 100%; 
     padding: 0 20px; 
-    font-size: 16px; /* Reduci el tamaño de fuente */
+    font-size: 16px; 
     text-align: center; 
   }
 
   .right-box {
-    padding: 20px; /* Reduci el espaciado interno */
+    padding: 20px; 
     width: 100%; 
     border-radius: 20px; /* Reduci la curvatura de los bordes */
   }
@@ -613,14 +613,14 @@ button a:hover {
     .text {
       width: 100%;
       padding: 0 20px;
-      font-size: 16px; /* Tamaño de fuente reducido */
+      font-size: 16px; 
       text-align: center;
     }
   
     .right-box {
-      padding: 20px; /* Espaciado interno reducido */
+      padding: 20px; 
       width: 100%;
-      border-radius: 20px; /* Curvatura de los bordes reducida */
+      border-radius: 20px; 
     }
   }
   /* Estilo Footer */
@@ -668,32 +668,32 @@ footer {
   
   
   .condiciones ul li:nth-child(1) a {
-    font-size: 18px; /* Tamaño del primer enlace */
+    font-size: 18px; 
     font-weight: bold;
   }
   
   
   .condiciones ul li:nth-child(2) a {
-    font-size: 10px; /* Tamaño del segundo enlace */
+    font-size: 10px;
     font-weight: bold;
   }
   
   
   .condiciones ul li:nth-child(3) a {
-    font-size: 10px; /* Tamaño del tercer enlace */
+    font-size: 10px; 
     font-weight: bold;
   }
   
   
   .condiciones ul li a {
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    color: #369ac2; /* Color del texto de los enlaces */
+    text-decoration: none; 
+    color: #369ac2; 
   }
    /* Footer estilos para dispositivos más pequeños */
 @media screen and (max-width: 1000px) {
   footer {
     padding: 5px; 
-    font-size: 8px; /* el tamaño de fuente */
+    font-size: 8px; 
   }
 
 
@@ -713,7 +713,7 @@ footer {
 
   .condiciones ul {
     margin-top: 10px;
-    text-align: center; /* Centrar el texto */
+    text-align: center; 
     margin-right: -5px;
   }
 
