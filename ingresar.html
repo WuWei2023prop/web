@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar</title>
+    <link rel="stylesheet" href="css/style-ingresar.css">
+</head>
+<body>
+    <div>
+        <a href="index.html"><input type="submit" value="Volver" title="volver al inicio" id="btn-volver"></a>
+    </div>
+    <div class="form-ingresar">
+        <h1>Ingresar</h1>
+        <form method="post">
+            <div class="email-contra">
+                <input type="email" required title="email" id="email" >
+                <label>Ingrese su correo electronico</label>
+            </div>
+            <div class="email-contra" >
+                <input type="password" required title="contraseña" id="contraseña">
+                <label>Ingrese su contraseña</label>
+            </div>
+            <div class="contra-olvidada" title="Recupere su contraseña">¿Olvidó su contraseña?</div>
+            <button type="button" id="btn-ingresar" onclick="validarYEnviarFormulario()">Enviar</button>
+            <div class="registrarse" title="registrarse">
+                Quiero <a href="registrarse.html">registrarme</a>
+            </div>
+        </form>
+    </div>
+    <script src="js/ingresar.js"></script>
+</body>
+</html>

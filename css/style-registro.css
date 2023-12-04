@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    overflow-x: hidden;
+    background-color:#18d1ff1a ;
+    
+}
+#btn-volver{
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #2b7a99;
+    border: none;
+    font-size: 16px;
+    color: white;
+    outline: none ;
+    right: 0;
+    margin-left: 80%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#btn-volver:hover{
+    background-color: #84d3f384 ;
+    color: #2b7a99;
+}
+.form-registro{
+    width: 70%;
+    background: #84d3f384;
+    border-radius: 10px;
+    margin-left: 15%;
+    box-shadow: 0 0 10px 5px #6098ae84;
+}
+.form-registro h1{
+    text-align: center;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid black;
+}
+.form-registro form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.form-registro form #acomodar{
+    display: flex;
+    flex-wrap: wrap;
+}
+form .datos{
+    position: relative;
+    border-bottom: 2px solid;
+    margin: 30px;
+    width: 40%;
+}
+.datos input{
+    width: 100%;
+    padding: 0 5px;
+    height: 25px;
+    font-size: 16px;
+    border: none; 
+    background: none;
+    outline: none;
+}
+
+.datos label{
+    position: absolute;
+    top: -35%;
+    color: black;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+    font: 600;
+}
+
+#btn-registro{
+    width: 20%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #2b7a99;
+    border: none;
+    font-size: 16px;
+    color: white;
+    outline: none ;
+    margin-left: 35px;
+}
+#btn-registro:hover{
+    background-color: #2b8db484;
+    color: #2b7a99;
+}
+@media (max-width: 1000px){
+    #btn-volver{
+        width: 15%;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #2b7a99;
+        border: none;
+        font-size: 14px;
+        color: white;
+        outline: none ;
+        right: 0;
+        margin-left: 80%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    .form-registro{
+        width: 90%;
+        background: #84d3f384;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .form-registro form{
+        padding: 0 5px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    form .datos{
+        border-bottom: 2px solid;
+        margin: 20px;
+        width: 40%;
+    }
+    .datos input{
+        width: 100%;
+        padding: 0 5px;
+        height: 20px;
+        font-size: 14px;
+        border: none; 
+        background: none;
+        outline: none;
+    }
+    .datos label{
+        position: absolute;
+        top: -35%;
+        color: black;
+        transform: translateY(-50%);
+        font-size: 12px;
+        pointer-events: none;
+        transition: .5s;
+    }
+    #btn-registro{
+        width: 20%;
+        height: 50px;
+        border-radius: 30px;
+        background-color: #2b7a99;
+        border: none;
+        font-size: 14px;
+        color: white;
+        outline: none ;
+        margin-left: 50%;
+        transform: translateY(-130%);
+    }
+}
+@media (max-width: 500px){
+    #btn-volver{
+        width: 20%;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #2b7a99;
+        border: none;
+        font-size: 14px;
+        color: white;
+        outline: none ;
+        right: 0;
+        margin-left: 75%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    .form-registro{
+        width: 90%;
+        background: #84d3f384;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .form-registro form{
+        padding: 0 5px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    form .datos{
+        border-bottom: 2px solid;
+        margin: 20px;
+        width: 90%;
+    }
+    .datos input{
+        width: 100%;
+        padding: 0 5px;
+        height: 20px;
+        font-size: 14px;
+        border: none; 
+        background: none;
+        outline: none;
+    }
+    .datos label{
+        position: absolute;
+        top: -35%;
+        color: black;
+        transform: translateY(-50%);
+        font-size: 12px;
+        pointer-events: none;
+        transition: .5s;
+    }
+    #btn-registro{
+        width: 30%;
+        height: 50px;
+        border-radius: 25px;
+        background-color: #2b7a99;
+        border: none;
+        font-size: 14px;
+        color: white;
+        outline: none ;
+        margin-left: 35%;
+        margin-top: 90px;
+    }
+
+}

@@ -1,0 +1,512 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+body {
+    overflow-x: hidden;
+    background-color:#18d1ff1a ;
+    width: 100%;
+    
+}
+ 
+/* Encabezado */
+header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 80px;
+    color: #2b7a99;
+   
+}
+ 
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+ 
+/* LOGO */
+header .logo {
+    display: flex;
+    align-items: center;
+}
+ 
+header .logo ion-icon {
+    font-size: 35px;
+    color: black;
+    margin-right: 5px;
+}
+ 
+header .logo span {
+    font-size: 25px;
+    font-weight: 800;
+    color: #347d9a;
+}
+ 
+.imagenLogo img {
+    width: 100px;
+    height: auto;
+    margin-right: -30px;
+}
+ 
+.ingresar-button {
+    padding: 8px 16px;
+    background-color: #bdecff;
+    border: none;
+    border-radius: 5px;
+}
+.ingresar-button:hover {
+  background-color: #2b7a99;
+}
+
+
+.menu-opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu-opciones .menu-toggle {
+    display: none;
+    
+}
+
+
+.menu-opciones .menu {
+    list-style: none;
+    display: flex;
+}
+
+
+.menu-opciones .menu li {
+    margin: 15px;
+}
+
+
+.menu-opciones .menu a {
+    color: #2b7a99;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-weight: bold;
+}
+
+
+.menu-opciones .menu a:hover {
+    color:#ffffff;
+}
+
+
+  @media (max-width: 1000px){
+    header .contenedor {
+        padding: 20px; /* Reducción del espacio alrededor del header */
+    }
+    
+    .logo {
+        font-size: 20px; /* Reducción del tamaño del logo */
+    }
+
+    .imagenLogo img {
+        width: 80px; /* Reducción del tamaño del logo */
+    }
+    
+    .menu-opciones .menu-toggle {
+        display: block; /* Muestra el ícono del menú */
+    }
+    
+    .menu-opciones .menu {
+        display: none; /* Oculta el menú */
+    }
+    
+    .menu-opciones .menu.active {
+        display: flex; /* Muestra el menú al hacer click en el ícono */
+        flex-direction: column; /* Cambia la dirección del menú */
+        position: absolute;
+        top: 80px;
+        right: 0;
+        background-color: #fff; /* Ajusta el color de fondo del menú */
+        padding: 10px;
+        z-index: 99;
+    }
+    
+    .menu-opciones .menu li {
+        margin: 10px 0; /* Espacio entre elementos del menú */
+    }
+  }
+  @media (max-width: 500px){
+    header .contenedor {
+        padding: 10px; /* Reducción del espacio alrededor del header */
+    }
+    .logo{
+        margin-top: -35px;
+    }
+    #logo{
+        font-size: 16px;
+    }
+    .menu-opciones{
+        margin-top: -35px;
+    }
+    
+    .menu-opciones .menu.active {
+        display: flex; /* Muestra el menú al hacer click en el ícono */
+        flex-direction: column; /* Cambia la dirección del menú */
+        top: 50px;
+        right: 0;
+        background-color: #fff; /* Ajusta el color de fondo del menú */
+        padding: 10px;
+        z-index: 99;
+    }
+    
+    .menu-opciones .menu li {
+        margin: 10px 0; /* Espacio entre elementos del menú */
+    }
+    
+  }
+  /*MISION*/
+#mision {
+    text-align: center;
+    padding: 30px; /* Agrega espacio interno */
+    color: #0a76a1;
+    
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: row-reverse;
+    
+  }
+
+
+.text-left {
+    text-align: left;
+    flex: 1;
+    font-size: 16.5px;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 60px; 
+    padding: 40px; 
+    margin: 20px 40px 30px 60px; 
+    max-width: 35%; 
+    margin-top: 10px;
+    box-shadow: 0 0 10px 5px #c0ccd184
+}
+
+.imagen img {
+    width: 500px; 
+    height: auto; 
+    margin-left: 40px; 
+    margin-bottom: 18px; 
+}
+  /*VISION*/
+#vision {
+    text-align: center;
+    padding: 30px; 
+}
+
+
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
+
+
+.text-left1 {
+    text-align: left;
+    flex: 1;
+    font-size: 16px;
+    color: #0a76a1;
+    border-radius: 60px; 
+    padding: 10px; /* Agrega espacio interno al contenedor del texto */
+    margin: 2px 4px 30px 20px; 
+    max-width: 48%; 
+    margin-top: 50px;
+    
+}
+.imagen1 img {
+    width: 300px; 
+    height: auto; 
+    margin-left: 40px; 
+    margin-bottom: 18px; 
+}
+/*VALORES*/
+#valores {
+    text-align: center;
+    padding: 30px;
+    color: #0a76a1;
+}
+
+
+.content2 {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    margin-top: 100px; 
+}
+
+
+.text-left2 {
+    text-align: left;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 60px;
+    padding: 40px;
+    margin: 20px 40px 30px 60px;
+    max-width: 70%;
+    box-shadow: 0 0 10px 5px #c0ccd184
+}
+  
+.imagen2 {
+    text-align: center; 
+}
+
+
+.imagen2 img {
+    width: 600px;
+    height: auto;
+    margin-bottom: 28px;
+}
+ /* Para pantallas de hasta 1000px */
+ @media screen and (max-width: 1000px) {
+    .text-left, .text-left1, .text-left2 {
+      max-width: 60%; /* Reducir el ancho máximo para dispositivos medianos */
+      margin: 20px; /* Ajusta el margen */
+    }
+  }
+/* Para pantallas de hasta 768px */
+@media screen and (max-width: 768px) {
+    .imagen2 img, .imagen1 img, .imagen img {
+     margin-top: 60px;
+      max-width: 70%;
+      margin-left: -50px;
+    }
+    
+    .text-left, .text-left1, .text-left2 {
+      max-width: 90%;
+      margin: 10px;
+      font-size: 14px;
+      padding: 20px;
+    }
+    
+    .content, .content1, .content2 {
+      flex-direction: column-reverse;
+    }
+  }
+  /*Equipo*/
+.equipo {
+    text-align: center;
+    padding: 100px;
+    color: #0a76a1;
+    background-color: #0fb4f625; 
+    font-size: 20px; 
+    border-radius: 70% 80% 0 0 / 70% 90% 0 0;
+    overflow: hidden;
+    position: relative;
+    margin-top: 80px;
+}
+
+
+.text-left3 {
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+
+
+.miembro {
+    display: inline-block;
+    margin: 20px;
+    
+    
+}
+
+
+.member-info {
+    margin-top: -80px;
+    text-align: center;
+    
+    
+}
+.member-details {
+    margin-top: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.member-details a {
+    font-size: 16px; 
+}
+.miembro img {
+    display: block;
+    width: 200px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+
+.member-details a {
+    text-decoration: none;
+    color: #0a76a1;
+    background-color: #ffffff8c;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+/* Para pantallas de hasta 1000px */
+@media screen and (max-width: 1000px) {
+    .equipo {
+      padding: 50px; /* Reducir el padding para dispositivos medianos */
+    }
+  }
+  
+  /* Para pantallas de hasta 768px */
+  @media screen and (max-width: 768px) {
+    .equipo {
+      padding: 60px; /* Reducir más el padding para dispositivos pequeños */
+      font-size: 16px; /* Reducir el tamaño del texto */
+      border-radius: 50% 60% 0 0 / 50% 70% 0 0; /* Ajustar el radio del borde */
+    }
+  
+    .miembro img {
+      width: 150px; /* Reducir el tamaño de la imagen */
+      height: 170px;
+    }
+  }
+  
+  /* Para pantallas de hasta 500px */
+  @media screen and (max-width: 500px) {
+    .equipo {
+      padding: 60px; /* Reducir el padding para dispositivos extra pequeños */
+      font-size: 14px; /* Reducir más el tamaño del texto */
+      border-radius: 40% 50% 0 0 / 40% 60% 0 0; /* Ajustar más el radio del borde */
+    }
+  
+    .miembro img {
+      width: 120px; /* Reducir más el tamaño de la imagen */
+      height: 140px;
+      margin-top: 80px;
+    }
+  
+    .member-details a {
+      font-size: 16px; /* Reducir el tamaño de los enlaces */
+    }
+  }
+  /* Estilo Footer */
+footer {
+    margin: 0px;
+    width: 100%;
+    background-color: #67c1e592;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+    display: block;
+   
+  }
+  
+  
+  .contenedor-footer {
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    max-width: 1450px;
+
+  }
+  
+  
+  .redes-sociales img {
+    width: 40px;
+    height: auto;
+    position: relative;
+  }
+  
+  
+  .condiciones ul {
+    list-style: none; 
+    padding: 0; /* Elimina el relleno predeterminado */
+    margin-right: 30px;
+    margin-top: 20px;
+    text-align: right;
+    position: relative;
+  }
+  
+  
+  .condiciones ul li {
+    margin-bottom: 2px 2px; /* Ajusta el espacio entre elementos de la lista */
+  }
+  
+  
+  .condiciones ul li:nth-child(1) a {
+    font-size: 18px; /* Tamaño del primer enlace */
+    font-weight: bold;
+  }
+  
+  
+  .condiciones ul li:nth-child(2) a {
+    font-size: 10px; /* Tamaño del segundo enlace */
+    font-weight: bold;
+  }
+  
+  
+  .condiciones ul li:nth-child(3) a {
+    font-size: 10px; /* Tamaño del tercer enlace */
+    font-weight: bold;
+  }
+  
+  
+  .condiciones ul li a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #369ac2; /* Color del texto de los enlaces */
+  }
+  /* Footer estilos para dispositivos más pequeños */
+@media screen and (max-width: 1000px) {
+    footer {
+      padding: 5px; 
+      font-size: 8px; /* el tamaño de fuente */
+    }
+  
+  
+    .contenedor-footer {
+      justify-content: center;
+      max-width: 100%; 
+      flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+      text-align: center; 
+    }
+  
+  
+    .redes-sociales img {
+      width: 30px; /* Reduci el tamaño de las imágenes */
+      margin: 5px; /* Añadi un poco de espacio entre las imágenes */
+    }
+  
+  
+    .condiciones ul {
+      margin-top: 10px;
+      text-align: center; /* Centrar el texto */
+    }
+  
+  
+    .condiciones ul li {
+      margin-bottom: 5px; /* Ajuste el espacio entre elementos de la lista */
+    }
+  
+  
+    .condiciones ul li a {
+      font-size: 8px; /* el tamaño del texto de los enlaces */
+    }
+  }
+  
