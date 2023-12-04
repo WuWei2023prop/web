@@ -183,7 +183,7 @@ footer {
   
   .condiciones ul {
     list-style: none; 
-    padding: 0; /* Elimina el relleno predeterminado */
+    padding: 0; 
     margin-right: 30px;
     margin-top: 20px;
     text-align: right;
@@ -192,44 +192,44 @@ footer {
   
   
   .condiciones ul li {
-    margin-bottom: 2px 2px; /* Ajusta el espacio entre elementos de la lista */
+    margin-bottom: 2px 2px; 
   }
   
   
   .condiciones ul li:nth-child(1) a {
-    font-size: 18px; /* Tamaño del primer enlace */
+    font-size: 18px; 
     font-weight: bold;
   }
   
   
   .condiciones ul li:nth-child(2) a {
-    font-size: 10px; /* Tamaño del segundo enlace */
+    font-size: 10px; 
     font-weight: bold;
   }
   
   
   .condiciones ul li:nth-child(3) a {
-    font-size: 10px; /* Tamaño del tercer enlace */
+    font-size: 10px; 
     font-weight: bold;
   }
   
   
   .condiciones ul li a {
-    text-decoration: none; /* Elimina el subrayado del enlace */
-    color: #369ac2; /* Color del texto de los enlaces */
+    text-decoration: none; 
+    color: #369ac2; 
   }
 
   @media (max-width: 1000px){
     header .contenedor {
-        padding: 20px; /* Reducción del espacio alrededor del header */
+        padding: 20px; 
     }
     
     .logo {
-        font-size: 20px; /* Reducción del tamaño del logo */
+        font-size: 20px; 
     }
 
     .imagenLogo img {
-        width: 80px; /* Reducción del tamaño del logo */
+        width: 80px; 
     }
     
     .menu-opciones .menu-toggle {
@@ -246,7 +246,7 @@ footer {
         position: absolute;
         top: 80px;
         right: 0;
-        background-color: #fff; /* Ajusta el color de fondo del menú */
+        background-color: #fff; 
         padding: 10px;
         z-index: 99;
     }
@@ -335,13 +335,13 @@ footer {
         padding: 15px; /* Ajustar el espacio alrededor del header */
     }
     .logo {
-        margin-top: -25px; /* Cambiar el margen superior del logo */
+        margin-top: -25px; /* Cambia el margen superior del logo */
     }
     #logo {
-        font-size: 18px; /* Tamaño del logo */
+        font-size: 18px; 
     }
     .menu-opciones {
-        margin-top: -25px; /* Ajustar el margen superior de las opciones del menú */
+        margin-top: -25px; 
     }
     
     .menu-opciones .menu.active {
@@ -370,7 +370,7 @@ footer {
         font-size: 20px; /* Tamaño del logo */
     }
     .menu-opciones {
-        margin-top: -20px; /* Ajustar el margen superior de las opciones del menú */
+        margin-top: -20px; /* Ajusta el margen superior de las opciones del menú */
     }
     
     .menu-opciones .menu.active {
@@ -390,13 +390,13 @@ footer {
 }
 @media (max-width: 912px) {
     header .contenedor {
-        padding: 12px; /* Ajustar el espacio alrededor del header */
+        padding: 12px; /* Ajusta el espacio alrededor del header */
     }
     .logo {
-        margin-top: -20px; /* Cambiar el margen superior del logo */
+        margin-top: -20px; 
     }
     #logo {
-        font-size: 20px; /* Tamaño del logo */
+        font-size: 20px; 
     }
     .menu-opciones {
         margin-top: -20px; /* Ajustar el margen superior de las opciones del menú */
@@ -420,24 +420,24 @@ footer {
 
 @media (max-width: 1024px) {
     header .contenedor {
-        padding: 12px; /* Ajustar el espacio alrededor del header */
+        padding: 12px; 
     }
     .logo {
-        margin-top: -20px; /* Cambiar el margen superior del logo */
+        margin-top: -20px; 
     }
     #logo {
-        font-size: 20px; /* Tamaño del logo */
+        font-size: 20px; 
     }
     .menu-opciones {
-        margin-top: -20px; /* Ajustar el margen superior de las opciones del menú */
+        margin-top: -20px; 
     }
     
     .menu-opciones .menu.active {
-        top: 65px; /* Posición del menú */
+        top: 65px; 
     }
     
     .menu-opciones .menu li {
-        margin: 10px; /* Espacio entre elementos del menú */
+        margin: 10px; 
     }
     
     .cards {
@@ -464,24 +464,24 @@ footer {
 
 
   .redes-sociales img {
-    width: 30px; /* Reduci el tamaño de las imágenes */
-    margin: 5px; /* Añadi un poco de espacio entre las imágenes */
+    width: 30px; 
+    margin: 5px; 
   }
 
 
   .condiciones ul {
     margin-top: 10px;
-    text-align: center; /* Centrar el texto */
+    text-align: center; 
   }
 
 
   .condiciones ul li {
-    margin-bottom: 5px; /* Ajuste el espacio entre elementos de la lista */
+    margin-bottom: 5px; 
   }
 
 
   .condiciones ul li a {
-    font-size: 8px; /* el tamaño del texto de los enlaces */
+    font-size: 8px; /* 
   }
 }
 
